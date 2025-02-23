@@ -25,13 +25,13 @@ python -m venv venv
 source venv/bin/activate   # No Linux/MacOS
 venv\Scripts\activate      # No Windows
 ```
-### 3. Instale as dependências do projeto
+### 2. Instale as dependências do projeto
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 4. Instale o FFmpeg
+## 3. Instale o FFmpeg
 
 O bot utiliza o FFmpeg para manipulação de áudio, então é necessário instalar essa ferramenta.
 
@@ -62,7 +62,7 @@ sudo apt update && sudo apt install ffmpeg      # No Ubuntu/Debian
 brew install ffmpeg                             # No macOS com Homebrew
 ```
 
-## 5. Configure as credenciais do Spotify
+## 4. Configure as credenciais do Spotify
 
 ### Este projeto requer credenciais da API do Spotify. Siga os passos abaixo:
 
@@ -78,7 +78,7 @@ brew install ffmpeg                             # No macOS com Homebrew
 
 - Clique em "Mostrar credenciais" e copie as credenciais do cliente do Spotify.
 
-## 6. Executando o Bot
+## 5. Executando o Bot
 
 ```bash
 python bot.py
